@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portofolio Bagus Milanueva Ardana</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #c9d6ff, #e2e2e2);
+      color: #2c3e50;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 40px auto;
+      background: #ffffffee;
+      padding: 40px 50px;
+      border-radius: 15px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+      position: relative;
+      backdrop-filter: blur(6px);
+      overflow: hidden;
+    }
+
+    .photo-box {
+  width: 90px; /* 3 bagian */
+  height: 120px; /* 4 bagian */
+  border-radius: 10px; /* sudut sedikit membulat, bisa 0 kalau mau benar-benar kotak */
+  overflow: hidden;
+  border: 4px solid #fff;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.photo-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+    header {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 34px;
+      color: #1a1a1a;
+    }
+
+    header p {
+      font-size: 18px;
+      color: #666;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+      color: #34495e;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .project {
+      margin-bottom: 30px;
+    }
+
+    .project h3 {
+      margin: 10px 0 5px;
+      color: #2980b9;
+    }
+
+    .project a {
+      color: #007acc;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .project a:hover {
+      text-decoration: underline;
+      color: #005f99;
+    }
+
+    #contact a {
+      color: #007acc;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 14px;
+      color: #777;
+    }
+
+    .container > header,
+    .container > section,
+    .container > footer {
+      margin-left: 160px;
+    }
+
+    @media screen and (max-width: 600px) {
+      .container {
+        padding: 20px;
+      }
+
+      .photo-box {
+        position: static;
+        margin: 0 auto 20px;
+        display: block;
+      }
+
+      .container > header,
+      .container > section,
+      .container > footer {
+        margin-left: 0;
+      }
+
+      header h1 {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="photo-box">
+      <img src="img/WhatsApp Image 2025-05-28 at 16.43.02_6ba423bd.jpg" alt="Foto Bagus Milanueva Ardana" />
+    </div>
+
+    <header>
+      <h1>Bagus Milanueva Ardana</h1>
+      <p>Mahasiswa Teknik Komputer | Problem Solver | Programmer</p>
+    </header>
+
+    <section id="about">
+      <h2>💡 Tentang Saya</h2>
+      <p>
+        Saya adalah mahasiswa Teknik Komputer yang penuh semangat dan antusias terhadap teknologi digital dan inovasi perangkat lunak. Saya senang mengeksplorasi pemrograman modern dan membangun solusi yang berdampak melalui berbagai proyek berbasis teknologi.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>🧠 Keahlian</h2>
+      <ul>
+        <li><strong>Bahasa:</strong> Python, C, C++, Java, JavaScript</li>
+        <li><strong>Web:</strong> HTML, CSS, React, Node.js</li>
+        <li><strong>Database:</strong> MySQL, MongoDB</li>
+        <li><strong>Tools:</strong> Git, Linux, Docker, VS Code</li>
+        <li><strong>Konsep:</strong> Struktur Data, Jaringan, Sistem Operasi, Embedded System</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>🚀 Proyek Unggulan</h2>
+
+      <article class="project">
+        <h3>Sistem Pengaduan Masyarakat</h3>
+        <p><strong>Deskripsi:</strong> Aplikasi web untuk menerima dan memproses pengaduan masyarakat secara real-time.</p>
+        <p><strong>Teknologi:</strong> React, Node.js, MongoDB</p>
+        <p><strong>Peran:</strong> Fullstack Developer</p>
+        <p><a href="https://github.com/username/sistem-pengaduan" target="_blank">Lihat di GitHub</a></p>
+      </article>
+
+      <article class="project">
+        <h3>Robot Penghindar Rintangan</h3>
+        <p><strong>Deskripsi:</strong> Robot cerdas berbasis sensor ultrasonik untuk navigasi otomatis.</p>
+        <p><strong>Teknologi:</strong> Arduino, C++</p>
+        <p><strong>Peran:</strong> Desainer & Programmer</p>
+      </article>
+
+      <article class="project">
+        <h3>Manajemen Perpustakaan Digital</h3>
+        <p><strong>Deskripsi:</strong> Aplikasi desktop untuk inventaris dan peminjaman buku.</p>
+        <p><strong>Teknologi:</strong> Java, MySQL</p>
+        <p><strong>Peran:</strong> Developer Utama</p>
+      </article>
+    </section>
+
+    <section id="experience">
+      <h2>🤝 Pengalaman Organisasi</h2>
+      <ul>
+        <li>Anggota aktif Himpunan Mahasiswa Teknik Komputer (HMTK)</li>
+        <li>Koordinator IT dalam Hackathon Kampus</li>
+        <li>Relawan Workshop Coding untuk Siswa SMA</li>
+      </ul>
+    </section>
+
+    <section id="certificates">
+      <h2>📜 Sertifikat</h2>
+      <ul>
+        <li>Certified Python Programmer – XYZ Institute</li>
+        <li>Linux Fundamentals – ABC Academy</li>
+        <li>Pelatihan IoT – Universitas Kamu</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+  <h2>📬 Kontak</h2>
+  <p>Email: <a href="mailto:Milanuevaardana6@gmail.com">Milanuevaardana6@gmail.com</a></p>
+  <p>LinkedIn: <a href="mailto:Milanuevaardana6@gmail.com">Milanuevaardana6@gmail.com</a></p>
+  <p>GitHub: <a href="mailto:Milanuevaardana6@gmail.com">Milanuevaardana6@gmail.com</a></p>
+</section>
+
+
+    <footer>
+      <p>© 2025 Bagus Milanueva Ardana. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
